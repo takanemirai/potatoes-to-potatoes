@@ -1,0 +1,29 @@
+.welcome{
+    text-align: center;
+}
+
+.help{
+    text-decoration: underline;
+    text-align: center
+}
+.help2{
+    text-align: center;
+    font-weight:bold;
+}
+
+.start{
+    margin-left: 550px;
+    font-size:50px;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(http://www.tastespotting.com/features/wp-content/uploads/blue-purple-potatoes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    margin-left: 600px;
+    text-decoration: none;
+}

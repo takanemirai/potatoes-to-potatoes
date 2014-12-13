@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Potatoes to Potatoes</title>
+        <link rel="stylesheet" type="text/css" href="../css/potato1.css">
+    </head>
+
+    <body>
+       <h1 class="adj"> <%= @redpotato.attributes[0] %></h1>
+        <% @purplepotato.nouns.sample(4).each do |thing|  %>
+        <p class="p1"><%= thing %></p></a>
+        <% end %>
+        <% @purplepotato.nouns.sample(4).each do |thing|  %>
+        <p class="p2"><%= thing %></p>
+        <% end %>
+        <% @purplepotato.nouns.sample(4).each do |thing|  %>
+        <p class="p3"><%= thing %></p>
+        <% end %>
+    </body>
+
+
+</html>
